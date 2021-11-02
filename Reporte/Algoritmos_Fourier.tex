@@ -1,0 +1,104 @@
+\section{La transformada de Fourier}
+\label{La transformada de Fourier}
+
+Las transformadas integrales como lo son la transformada de Laplace o la transformada de Fourier, tienen una
+gran aplicación en muchas ramas de la ciencia, en este trabajo nos centraremos en la transformada de Fourier
+que puede ser usada para simplificar complejos problemas matemáticos. De manera poco rigurosa podemos decir
+que nos lleva una función del espacio en el que está definida al espacio de las frecuencias.
+
+
+Sea f(x) una función que satisface las condiciones de Dirichlet, entoces se dice que tiene una
+representación en series de Fourier.
+
+
+\begin{theorem}[Teorema de Dirichlet]
+  Si se cumple que:
+  \begin{enumerate}
+    \item Si $f(x)$ tiene periodo $2L$ y es univaluada entre $-L$ y $L$.
+    \item Tiene un número finito de máximos y mínimos.
+    \item Tiene un número finito de discontinuidades.
+    \item Y si $\int_{-L}^{L} \| f(x) \| dx $ es finita.
+  \end{enumerate}
+  Entonces f(x) tiene representación en series de Fourier y converge a ella en todos los puntos donde
+  $f(x)$ es continua y al punto medio donde $f(x)$ es discontinua.
+\end{theorem}
+
+
+\begin{definition}[Series de Fourier]
+  Si $f(x)$ satisface las condiciones de Dirichlet entonces su representación en series de Fourier está dada por:
+
+  \begin{equation}
+    f(x) = \sum_{n = -\infty}^{\infty} c_{n} e^{i\left( n\pi x / L \right) }
+  \end{equation}
+
+\end{definition}
+
+
+Donde los coeficientes $\left\{ c_{n} \right\}$ suelen ser llamados como el \emph{espectro de f(x)} .
+
+
+El espectro anterior es un espectro discreto que puede representar ciertas funciones periodicas, sin embargo, existen
+otras funciones periodicas o ciertos fenomenos físicos en los que se necesita de un espectro continuo. Notemos
+como la serie de Fourier está dada por una suma infinita, por lo cual no debería sorprendernos que bajo ciertas
+condiciones podamos reemplazarla por la integral de Fourier.
+
+
+\begin{definition}[La transformada de Fourier]
+  Si una función $f(x)$ satisface las condiciones de Dirichlet y si $\int_{-\infty}^{\infty} \| f(x) \| dx $
+  es finita entonces:
+
+  \begin{equation}
+    F(k) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} f(x) e^{ikx} dx
+  \end{equation}
+
+  Y la transformada inversa de Fourier está dada por:
+
+  \begin{equation}
+    f(x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} F(k) e^{-ikx} dk
+  \end{equation}
+
+\end{definition}
+
+\section{La transformada de discreta de Fourier DFT}
+\label{La transformada de discreta de Fourier DFT}
+
+Notemos que una transformada de Fourier implica la evaluación de integrales y cierto manejo del álgebra, sin embargo,
+es posible implementar un algoritmo que nos permita encontrar la transformada de Fourier a un conjunto de datos
+discreto que contenga la información de la función a transformar. A este algortimo le llamamos
+la \emph{Transformada Discreta de Fourier o DFT}.
+
+\begin{definition}[DFT]
+  Sea $X_{n}$ un arreglo con N terminos que contiene la información de una función, la Transformada
+  Discreta de Fourier (DFT) de cada elemento del arreglo numérico está por:
+
+  \begin{equation}
+    X_{k} = \sum_{n = 1}^{N-1} x_{n} e^{-i2\pi kn/N}
+  \end{equation}
+
+  Y la Transformada Inversa Discreta de Fourier (tambíen denotada por DFT inversa o IDFT) está dada por:
+
+  \begin{equation}
+    x_{n} = \frac{1}{N}  \sum_{n = 1}^{N-1} X_{k} e^{i2\pi kn/N}
+  \end{equation}
+
+\end{definition}
+
+Resaltamos que tanto $x_{n}$ como $X_{k}$ pueden tomar valores complejos.
+
+\section{La transformada rapida de Fourier DFT}
+\label{La transformada rapida de Fourier FFT}
+
+Por lo general, tenemos que lidiar con una gran cantidad de puntos de datos, y la velocidad del algoritmo
+para la transformada de Fourier se convierte en un tema muy importante. El algoritmo de la DFT tiene un costo
+computacional muy grande, conforme crece el tamaño del conjunto de datos, de hecho su complejidad es de
+$O(n^{2})$ (donde n es el tamaño del conjunto de datos) .
+
+
+La Transformada Rápida de Fourier (FFT) es un algoritmo eficiente para calcular la DFT de una secuencia.
+Se describe por primera vez en el artículo clásico de Cooley y Tukey en 1965, aunque se hizo referencia
+a este por primera vez en un trabajo no publicado de Gauss en 1805. Este algoritmo reduce considerablemente
+los costos computacionales pues su complejidad es de $O(nlog(n))$ (donde n es el tamaño del conjunto de datos) .
+
+
+Este algoritmo se aprovecha de varias simetrías a la hora de calcular la DFT, y será implementado en Python para
+el desarrollo de este trabajo.

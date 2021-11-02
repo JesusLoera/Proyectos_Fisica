@@ -1,0 +1,50 @@
+\documentclass[proceedings, preprint]{rmaa}
+
+% The preprint option sets the first page header to contain the name
+% of the conference. It will be ignored when typesetting the final
+% volume. 
+
+%%%
+%%% Load any optional packages you need here with \usepackage
+%%% 
+
+% This allows compact, in-paragraph, and as-paragraph  versions of the
+% standard itemize and enumerate environments. 
+\usepackage{paralist}
+
+\usepackage{blindtext}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{vmargin}
+\usepackage{amssymb}
+
+% These are used in one of the graphics examples
+\usepackage{psfrag,color}
+
+%%%
+%%% Define any personal macros here
+%%% 
+
+% These are some I use in typesetting example code
+\newcommand{\bs}{\textbackslash}
+\newcommand{\CS}[1]{\texttt{\textbackslash #1}}
+\newenvironment{Example}
+{\begin{list}{}{\setlength{\leftmargin}{5pt}\setlength{\rightmargin}{5pt}}\item[]}
+    {\end{list}}
+
+
+%%%
+%%% Article preamble commands (title, authors, abstract, etc.) 
+%%% None of these produce any output themselves, they just set things 
+%%% up for \maketitle
+%%%
+
+
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{corollary}{Corolario}[theorem]
+\newtheorem{lemma}[theorem]{Lema}
+\newtheorem{definition}{Definición}[section]
