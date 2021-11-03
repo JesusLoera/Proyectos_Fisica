@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2021.2.21)  2 NOV 2021 19:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2021.2.21)  3 NOV 2021 00:56
 entering extended mode
 **"c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Reporte/PIA.tex"
 ("c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Reporte/PIA.tex"
@@ -474,15 +474,41 @@ Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
 \mult@nat@firstbox=\box58
 \colbreak@box=\box59
 \mc@col@check@num=\count163
+) ("C:\Users\Jesus Loera\AppData\Roaming\MiKTeX\2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count164
+\float@exts=\toks25
+\float@box=\box60
+\@float@everytoks=\toks26
+\@floatcapt=\box61
+) ("C:\Users\Jesus Loera\AppData\Roaming\MiKTeX\2.9\tex/latex/subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip193
+\subfigcapskip=\skip194
+\subfigcaptopadj=\dimen145
+\subfigbottomskip=\skip195
+\subfigcapmargin=\dimen146
+\subfiglabelskip=\skip196
+\c@subfigure=\count165
+\c@lofdepth=\count166
+\c@subtable=\count167
+\c@lotdepth=\count168
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Users\Jesus Loera\AppData\Roaming\MiKTeX\2.9\tex/latex/subfigure\subfigure.cfg")
+\subfig@top=\skip197
+\subfig@bottom=\skip198
 ) ("C:\Users\Jesus Loera\AppData\Roaming\MiKTeX\2.9\tex/latex/psfrag\psfrag.sty"
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
-\pfg@pcount=\count164
-\pfg@scount=\count165
+\pfg@pcount=\count169
+\pfg@scount=\count170
 \pfg@temp=\write3
 )
-\c@theorem=\count166
-\c@corollary=\count167
-\c@definition=\count168
+\c@theorem=\count171
+\c@corollary=\count172
+\c@definition=\count173
 ) (portada.tex) (abstract.tex) (Resumen.tex) (keywords.tex) ("c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Proyectos_Fisica\Reporte\build_1\PIA.aux")
 \openout1 = `PIA.aux'.
 
@@ -500,17 +526,17 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
  ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count169
-\scratchdimen=\dimen145
-\scratchbox=\box60
-\nofMPsegments=\count170
-\nofMParguments=\count171
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count172
-\MPscratchDim=\dimen146
-\MPnumerator=\count173
-\makeMPintoPDFobject=\count174
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count174
+\scratchdimen=\dimen147
+\scratchbox=\box62
+\nofMPsegments=\count175
+\nofMParguments=\count176
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count177
+\MPscratchDim=\dimen148
+\MPnumerator=\count178
+\makeMPintoPDFobject=\count179
+\everyMPtoPDFconversion=\toks28
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2019/11/24 v2.7 Base part for package epstopdf
  ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
@@ -547,7 +573,7 @@ Package grfext Info: Graphics extension search list:
 
 
 Writing index file PIA.idx
-\c@lstlisting=\count175
+\c@lstlisting=\count180
 LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -561,7 +587,101 @@ Non-PDF special ignored!
 {C:/Users/Jesus Loera/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-]) (Atractor_Lorentz.tex) (apendice.tex [2] ("C:\Users\Jesus Loera\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty"
+]) (Atractor_Lorentz.tex [2]
+<imagenes/punto1/eje_x14.5500.png, id=25, 462.528pt x 346.896pt>
+File: imagenes/punto1/eje_x14.5500.png Graphic file (type png)
+<use imagenes/punto1/eje_x14.5500.png>
+Package pdftex.def Info: imagenes/punto1/eje_x14.5500.png  used on input line 54.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto1/eje_x14.5599.png, id=27, 462.528pt x 346.896pt>
+File: imagenes/punto1/eje_x14.5599.png Graphic file (type png)
+<use imagenes/punto1/eje_x14.5599.png>
+Package pdftex.def Info: imagenes/punto1/eje_x14.5599.png  used on input line 55.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto1/espectro14.5500.png, id=28, 462.528pt x 346.896pt>
+File: imagenes/punto1/espectro14.5500.png Graphic file (type png)
+<use imagenes/punto1/espectro14.5500.png>
+Package pdftex.def Info: imagenes/punto1/espectro14.5500.png  used on input line 56.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto1/espectro14.5599.png, id=29, 462.528pt x 346.896pt>
+File: imagenes/punto1/espectro14.5599.png Graphic file (type png)
+<use imagenes/punto1/espectro14.5599.png>
+Package pdftex.def Info: imagenes/punto1/espectro14.5599.png  used on input line 57.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto1/fase14.5500.png, id=30, 462.528pt x 346.896pt>
+File: imagenes/punto1/fase14.5500.png Graphic file (type png)
+<use imagenes/punto1/fase14.5500.png>
+Package pdftex.def Info: imagenes/punto1/fase14.5500.png  used on input line 58.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto1/fase14.5599.png, id=31, 462.528pt x 346.896pt>
+File: imagenes/punto1/fase14.5599.png Graphic file (type png)
+<use imagenes/punto1/fase14.5599.png>
+Package pdftex.def Info: imagenes/punto1/fase14.5599.png  used on input line 59.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto2/eje_x97.png, id=32, 462.528pt x 346.896pt>
+File: imagenes/punto2/eje_x97.png Graphic file (type png)
+<use imagenes/punto2/eje_x97.png>
+Package pdftex.def Info: imagenes/punto2/eje_x97.png  used on input line 65.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto2/eje_x98.png, id=33, 462.528pt x 346.896pt>
+File: imagenes/punto2/eje_x98.png Graphic file (type png)
+<use imagenes/punto2/eje_x98.png>
+Package pdftex.def Info: imagenes/punto2/eje_x98.png  used on input line 66.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto2/espectro97.png, id=34, 462.528pt x 346.896pt>
+File: imagenes/punto2/espectro97.png Graphic file (type png)
+<use imagenes/punto2/espectro97.png>
+Package pdftex.def Info: imagenes/punto2/espectro97.png  used on input line 67.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto2/espectro98.png, id=35, 462.528pt x 346.896pt>
+File: imagenes/punto2/espectro98.png Graphic file (type png)
+<use imagenes/punto2/espectro98.png>
+Package pdftex.def Info: imagenes/punto2/espectro98.png  used on input line 68.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto2/fase97.png, id=36, 462.528pt x 346.896pt>
+File: imagenes/punto2/fase97.png Graphic file (type png)
+<use imagenes/punto2/fase97.png>
+Package pdftex.def Info: imagenes/punto2/fase97.png  used on input line 69.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto2/fase98.png, id=37, 462.528pt x 346.896pt>
+File: imagenes/punto2/fase98.png Graphic file (type png)
+<use imagenes/punto2/fase98.png>
+Package pdftex.def Info: imagenes/punto2/fase98.png  used on input line 70.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+ [3
+
+ <./imagenes/punto1/eje_x14.5500.png> <./imagenes/punto1/eje_x14.5599.png> <./imagenes/punto1/espectro14.5500.png> <./imagenes/punto1/espectro14.5599.png> <./imagenes/punto1/fase14.5500.png> <./imagenes/punto1/fase14.5599.png>]
+<imagenes/punto3/eje_x8.png, id=50, 462.528pt x 346.896pt>
+File: imagenes/punto3/eje_x8.png Graphic file (type png)
+<use imagenes/punto3/eje_x8.png>
+Package pdftex.def Info: imagenes/punto3/eje_x8.png  used on input line 76.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto3/eje_x9.png, id=51, 462.528pt x 346.896pt>
+File: imagenes/punto3/eje_x9.png Graphic file (type png)
+<use imagenes/punto3/eje_x9.png>
+Package pdftex.def Info: imagenes/punto3/eje_x9.png  used on input line 77.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto3/espectro8.png, id=52, 462.528pt x 346.896pt>
+File: imagenes/punto3/espectro8.png Graphic file (type png)
+<use imagenes/punto3/espectro8.png>
+Package pdftex.def Info: imagenes/punto3/espectro8.png  used on input line 78.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto3/espectro9.png, id=53, 462.528pt x 346.896pt>
+File: imagenes/punto3/espectro9.png Graphic file (type png)
+<use imagenes/punto3/espectro9.png>
+Package pdftex.def Info: imagenes/punto3/espectro9.png  used on input line 79.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto3/fase8.png, id=54, 462.528pt x 346.896pt>
+File: imagenes/punto3/fase8.png Graphic file (type png)
+<use imagenes/punto3/fase8.png>
+Package pdftex.def Info: imagenes/punto3/fase8.png  used on input line 80.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<imagenes/punto3/fase9.png, id=55, 462.528pt x 346.896pt>
+File: imagenes/punto3/fase9.png Graphic file (type png)
+<use imagenes/punto3/fase9.png>
+Package pdftex.def Info: imagenes/punto3/fase9.png  used on input line 81.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+ [4 <./imagenes/punto2/eje_x97.png> <./imagenes/punto2/eje_x98.png> <./imagenes/punto2/espectro97.png> <./imagenes/punto2/espectro98.png> <./imagenes/punto2/fase97.png> <./imagenes/punto2/fase98.png>] [5 <./imagenes/punto3/eje_x8.png> <./imagenes/punto3/eje_x9.png> <./imagenes/punto3/espectro8.png> <./imagenes/punto3/espectro9.png> <./imagenes/punto3/fase8.png> <./imagenes/punto3/fase9.png>]) (apendice.tex ("C:\Users\Jesus Loera\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty"
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 10.
@@ -570,26 +690,27 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 11.
-) (bibliografia.tex [3
+ [6
 
-]
+
+] [7]) (bibliografia.tex [8]
 Class rmaa Info: Calling @outputaddressesifnecessary on input line 15.
- [4
+ [9
 
 
 ]) ("c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Proyectos_Fisica\Reporte\build_1\PIA.aux") ) 
 Here is how much of TeX's memory you used:
- 8181 strings out of 492484
- 108073 string characters out of 3130251
- 585598 words of memory out of 3000000
- 12347 multiletter control sequences out of 15000+200000
- 16801 words of font info for 47 fonts, out of 3000000 for 9000
+ 8638 strings out of 492484
+ 115661 string characters out of 3130251
+ 626288 words of memory out of 3000000
+ 12768 multiletter control sequences out of 15000+200000
+ 18346 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,52p,897b,1572s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecst0800.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0800.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Proyectos_Fisica\Reporte\build_1\PIA.pdf" (4 pages, 209425 bytes).
+ 55i,8n,52p,897b,1847s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecst0800.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0800.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on "c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Proyectos_Fisica\Reporte\build_1\PIA.pdf" (9 pages, 941076 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
+ 554 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

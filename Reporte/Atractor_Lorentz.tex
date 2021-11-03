@@ -22,8 +22,8 @@ se producen en las ecuaciones dinámicas de la atmósfera terrestre.
 
 Al parametro $\sigma$ se le suele denominar el número de Prandtl y $\rho$ se llama el número de Rayleigh.
 
-Fijemos los parametros $\sigma = 10$ y $\beta = 8/3$ y variemos el número de Rayleigh para hacer una inspección
-acerca de la sensibilidad a las condiciones iniciales del atractor de Lorenz. Emplearemos la siguiente metodología:
+Fijemos los parametros $\sigma = 10$ y $\beta = 8/3$ y variemos el número de Rayleigh entre 1 y 100 para hacer una inspección
+sobre de la sensibilidad a las condiciones iniciales del atractor de Lorenz. Emplearemos la siguiente metodología:
 
 \begin{enumerate}
     \item Resolver numéricamente el sistema de ecuaciones diferenciales.
@@ -31,3 +31,55 @@ acerca de la sensibilidad a las condiciones iniciales del atractor de Lorenz. Em
     \item Analizar gráficamente el espectro y la fase.
 \end{enumerate}
 
+\newpage
+
+\onecolumn
+
+Hemos encontrado algunos puntos donde la sensibilidad a las condiciones iniciales de hace muy presente y estos
+son algunos de ellos:
+
+\begin{enumerate}
+    \item $\rho \in (14.5500, 14.5599) $
+    \item $\rho \in (24.97, 24.98) $
+    \item $\rho \in (27.08, 27.09) $
+\end{enumerate}
+
+En cada uno de estos cambios se observó una considerable variación en el comportamiento del sistema, ante minimas variaciones
+del número de Rayleigh, hay otros casos en los cuales también se observan perturbaciones y estos son solo algunos
+de dichos casos.
+
+
+\begin{figure}[H]
+    \centering
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto1/eje_x14.5500.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto1/eje_x14.5599.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto1/espectro14.5500.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto1/espectro14.5599.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto1/fase14.5500.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto1/fase14.5599.png}}
+    \caption{\emph{$\rho = 14.5500 \Longrightarrow \rho = 14.5899 $}}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto2/eje_x97.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto2/eje_x98.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto2/espectro97.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto2/espectro98.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto2/fase97.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto2/fase98.png}}
+    \caption{\emph{$\rho = 24.97 \Longrightarrow \rho = 24.98 $}}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto3/eje_x8.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto3/eje_x9.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto3/espectro8.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto3/espectro9.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto3/fase8.png}}
+    \subfigure{\includegraphics[scale=0.45]{imagenes/punto3/fase9.png}}
+    \caption{\emph{$\rho = 27.08 \Longrightarrow \rho = 27.09 $}}
+\end{figure}
+
+\twocolumn
