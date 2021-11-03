@@ -17,7 +17,7 @@ def Lorentz_ED(xyz, t, sigma, rho, beta):
 Discretizamos la variable dependiente en N=2**m terminos,
 el cual es un requerimento de la Transformada Rapida de Fourier
 """
-m = 10
+m = 9
 N = 2 ** m
 
 
@@ -26,7 +26,7 @@ Condiciones iniciales y parametros del Atractor de Lorentz
 """
 
 # Asignamos valores a los parámetros
-sigma, Rho, beta = 8, np.arange(1, 101), 8.0 / 3.0
+sigma, Rho, beta = 10, np.linspace(24, 25, 100), 8.0 / 3.0
 
 # Condición inicial y valores de t sobre los que calcular
 xyz0 = [1.0, 1.0, 1.0]
@@ -49,7 +49,7 @@ for rho in Rho:
     ax1.set_ylabel("$y$", fontsize=16)
     ax1.set_zlabel("$z$", fontsize=16)
     plt.title("Diagrama de fase")
-    plt.savefig("images_numpy/fase/fase" + str(iter) + ".png")
+    plt.savefig("images_numpy_24_25/fase/fase" + str(iter) + ".png")
     plt.close()
 
     """
@@ -70,7 +70,7 @@ for rho in Rho:
     """
     plt.plot(t, xyz[:, 0])
     plt.title("X(t)")
-    plt.savefig("images_numpy/eje_x/eje_x" + str(iter) + ".png")
+    plt.savefig("images_numpy_24_25/eje_x/eje_x" + str(iter) + ".png")
     plt.close()
 
     """"
@@ -79,7 +79,7 @@ for rho in Rho:
     Freq = np.arange(0, N // 2)
     plt.plot(Freq, S_fft[: N // 2])
     plt.title("Espectro de Frecuencias")
-    plt.savefig("images_numpy/espectro/espectro" + str(iter) + ".png")
+    plt.savefig("images_numpy_24_25/espectro/espectro" + str(iter) + ".png")
     plt.close()
 
     iter = iter + 1

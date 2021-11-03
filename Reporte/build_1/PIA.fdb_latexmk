@@ -1,12 +1,12 @@
 # Fdb version 3
-["makeindex build_1/PIA.idx"] 1635876728 "build_1/PIA.idx" "build_1/PIA.ind" "build_1/PIA" 1635878268
-  "build_1/PIA.idx" 1635878264 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex build_1/PIA.idx"] 1635876728 "build_1/PIA.idx" "build_1/PIA.ind" "build_1/PIA" 1635903497
+  "build_1/PIA.idx" 1635903493 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
-  "build_1/PIA.ind"
   "build_1/PIA.ilg"
-["pdflatex"] 1635878260 "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Reporte/PIA.tex" "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Reporte/build_1/PIA.pdf" "PIA" 1635878268
+  "build_1/PIA.ind"
+["pdflatex"] 1635903487 "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Reporte/PIA.tex" "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Reporte/build_1/PIA.pdf" "PIA" 1635903497
   "Algoritmos_Fourier.tex" 1635869419 4677 769c63720aa7ac9565bc24282633ad59 ""
-  "Atractor_Lorentz.tex" 1635874582 897 381e4cb84547c4823e13b68cae5a18e5 ""
+  "Atractor_Lorentz.tex" 1635903483 1386 6ee730cc78d74afbc970a30c9ca59861 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1000.tfm" 993058356 3200 328792ff19833a39406f06fa0555a6dc ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1200.tfm" 993058358 3200 b8d69bc738e5ef3e08cefeef3109ff56 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/eccc1000.tfm" 993058380 2788 9da2d2e7e17b2a98c3aa301c9668a522 ""
@@ -121,18 +121,18 @@
   "abstract.tex" 1635812537 132 ba983f58383144d59154e0cc8d23a4f1 ""
   "apendice.tex" 1635878243 1529 286c1c763e8dfd99185c54b2c1a6976c ""
   "bibliografia.tex" 1635878129 609 67d440a559eba8bdec80bb0a556b966c ""
-  "build_1/PIA.aux" 1635878265 712 3fca5e1045e8ca18209b5d8ede8a1c88 "pdflatex"
+  "build_1/PIA.aux" 1635903495 712 3fca5e1045e8ca18209b5d8ede8a1c88 "pdflatex"
   "build_1/PIA.ind" 1635876728 0 d41d8cd98f00b204e9800998ecf8427e "makeindex build_1/PIA.idx"
   "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Reporte/PIA.tex" 1635876315 358 7ae67812963fbabf18ab560e31a7a35a ""
-  "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Reporte/build_1/PIA.aux" 1635878265 712 3fca5e1045e8ca18209b5d8ede8a1c88 ""
+  "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Reporte/build_1/PIA.aux" 1635903495 712 3fca5e1045e8ca18209b5d8ede8a1c88 ""
   "keywords.tex" 1635826186 247 c3f418486f4bae9c2e6fc01f598ebbff ""
   "portada.tex" 1635869236 1404 e9ec87165ad88c56c72a0f874742e5c2 ""
   "pythonhighlight.sty" 1486307908 4822 44a39a68d852c9742af161f7166b2a03 ""
   "rmaa.cls" 1635825480 81773 ccdcdc766a419c1972c13731c96d3a09 ""
   (generated)
-  "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Reporte/build_1/PIA.pdf"
-  "build_1/PIA.log"
   "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Reporte/build_1/PIA.log"
+  "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Reporte/build_1/PIA.pdf"
   "build_1/PIA.aux"
   "build_1/PIA.idx"
+  "build_1/PIA.log"
   "build_1/PIA.pdf"
