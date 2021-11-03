@@ -55,7 +55,7 @@ for rho in Rho:
     """
     Calculamos la FFT de X(t) de las ecns de Lorentz
     """
-    G_Lorentz_X = np.fft.fft(xyz[:, 0])
+    G_Lorentz_X = FFT(xyz[:, 0])
 
     """
     Creamos un arreglo con los espectros de potencia de la FFT
