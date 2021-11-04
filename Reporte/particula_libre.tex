@@ -10,8 +10,40 @@ mediante una función de onda correspondiente a la onda de materia asociada con 
 Dada la situación, una partícula que sea localizable en una cierta región del espacio puede ser descrita por una onda de materia 
 cuya amplitud sea grande en esa región y cero fuera de ella. De esta manera, la onda de materia será localizada dentro 
 de la región del espacio donde la partícula esté físicamente confinada.\\
-Una función de onda localizable es llamada un \emph{paquete de ondas}. Un paquete de ondas consiste entonces de un grupo 
-de ondas de ligeramente distintas longitudes de ondas, con fases y amplitudes tales que interfieran constructivamente 
-dentro de una pequeña región del espacio y destructivamente fuera de ella.\\
-El concepto de paquete de onda representa entonces una herramienta matemática unificadora que puede lidiar tanto con el 
-comportamiento corpuscular de la naturaleza, así como con su comportamiento ondulatorio.
+Una función de onda localizable es llamada un \emph{paquete de ondas}. Un paquete de ondas consiste entonces de una 
+superposición de un grupo de ondas de ligeramente distintas longitudes de onda, con fases y amplitudes tales que 
+interfieran constructivamente dentro de una pequeña región del espacio y destructivamente fuera de ella.\\
+
+Matemáticamente es posible llevar a cabo dicha superposición de ondas gracias a la \emph{Transformada de Fourier}. Por 
+simplicidad, se considerará un paquete de ondas unidimensional con la intención de describir a una partícula "clásica" 
+confinada a una región unidimensional.\\
+Es posible construir $\psi(x,t)$ superponiendo ondas planas viajeras de distintas frecuencias (o longitudes de onda):
+
+\begin{equation}
+    \psi(x,t) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \phi(k)e^{i(kx-\omega t)}dk
+\end{equation}
+
+Donde $\phi(k)$ es la amplitud del paquete de ondas.\\
+Es importante tomar en cuenta que $\omega$ no es una constante dentro de la integral, de hecho $\omega$ es una función de 
+$k$, i.e. $\omega=\omega(k)$.\\
+De las relaciones de De Broglie:
+\begin{equation*}
+    \omega = \frac{E}{\hbar} = \frac{p^2/2m}{\hbar} = \frac{(\hbar k)^2}{2m\hbar} = \frac{\hbar k^2}{2m}
+\end{equation*}
+
+El objetivo es hallar la evolución temporal de este paquete de ondas. Para lograr esto, se analiza primero la forma del 
+paquete en un tiempo dado. Por decir, en $t=0$:
+
+\begin{equation}
+    \psi(0,t) = \psi_{0}(x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \phi(k)e^{ikx}\,dk
+\end{equation}
+
+De lo revisado en la \emph{sección 2}, se pueden hallar las amplitudes $\phi(k)$ si se aplica una transformada de Fourier
+a $\psi_{0}(x)$:
+
+\begin{equation}
+    \phi(k) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \psi_{0}(x)e^{-ikx}\,dk
+\end{equation}
+
+De esta manera, si se conoce la forma inicial de la función de onda, será posible encontrar las amplitudes $\phi(k)$ con
+$(11)$, y finalmente la función de onda con su dependencia temporal en $(9)$.
