@@ -17,10 +17,10 @@ interfieran constructivamente dentro de una pequeña región del espacio y destr
 Matemáticamente es posible llevar a cabo dicha superposición de ondas gracias a la \emph{Transformada de Fourier}. Por 
 simplicidad, se considerará un paquete de ondas unidimensional con la intención de describir a una partícula "clásica" 
 confinada a una región unidimensional.\\
-Es posible construir $\psi(x,t)$ superponiendo ondas planas viajeras de distintas frecuencias (o longitudes de onda):
+Es posible construir $\Psi(x,t)$ superponiendo ondas planas viajeras de distintas frecuencias (o longitudes de onda):
 
 \begin{equation}
-    \psi(x,t) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \phi(k)e^{i(kx-\omega t)}dk
+    \Psi(x,t) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \phi(k)e^{i(kx-\omega t)}\,dk
 \end{equation}
 
 Donde $\phi(k)$ es la amplitud del paquete de ondas.\\
@@ -35,15 +35,75 @@ El objetivo es hallar la evolución temporal de este paquete de ondas. Para logr
 paquete en un tiempo dado. Por decir, en $t=0$:
 
 \begin{equation}
-    \psi(0,t) = \psi_{0}(x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \phi(k)e^{ikx}\,dk
+    \Psi(0,t) = \psi_{0}(x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \phi(k)e^{ikx}\,dk
 \end{equation}
 
 De lo revisado en la \emph{sección 2}, se pueden hallar las amplitudes $\phi(k)$ si se aplica una transformada de Fourier
 a $\psi_{0}(x)$:
 
 \begin{equation}
-    \phi(k) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \psi_{0}(x)e^{-ikx}\,dk
+    \phi(k) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \psi_{0}(x)e^{-ikx}\,dx
 \end{equation}
 
 De esta manera, si se conoce la forma inicial de la función de onda, será posible encontrar las amplitudes $\phi(k)$ con
-$(11)$, y finalmente la función de onda con su dependencia temporal en $(9)$.
+$(11)$, y finalmente la función de onda con su dependencia temporal en $(9)$. Más formalmente se puede resumir este 
+algoritmo como trasladar la función de onda $\psi_{0}(x)$ del \emph{espacio de posiciones} a su representación $\phi(k)$ 
+en el \emph{espacio-k}, también conocido como \emph{espacio de momentos}, para finalmente volver al \emph{espacio-x} 
+agregando la dependencia temporal de la función de onda. Cabe destacar que tanto $\psi_{0}(x)$ como $\phi(k)$ contienen 
+la misma información y son descripciones igualmente válidas para un estado cuántico.\\
+
+Considérese por ejemplo a una partícula libre con la función de onda inicial:
+\begin{equation}
+    \Psi(x,0) = Ae^-ax^2
+\end{equation}
+Donde $A$ y $a$ son constantes (a es real y positiva).\\
+
+Lo primero que se busca hacer es normalizar la función de onda para que su modulo al cuadrado adquiera un sentido 
+estadístico apropiado de acuerdo con la interpretación de Born.
+\begin{align*}
+    \int_{-\infty}^{\infty} \lvert\Psi(x,0)\rvert^2\,dx &= \lvert A \rvert^2 \int_{-\infty}^{\infty} e^{-2ax^2}\,dx \\
+    &= 2\lvert A \rvert^2 \int_{0}^{\infty} e^{-2ax^2}\,dx
+\end{align*}
+
+Efectuando cambios de variable apropiados:
+\begin{align*}
+    \int_{-\infty}^{\infty} \lvert\Psi(x,0)\rvert^2\,dx &= \frac{1}{\sqrt{2a}} \lvert A \rvert^2 \int_{0}^{\infty} t^{-1/2}e^{-t}\,dt \\
+    &= \frac{1}{\sqrt{2a}} \lvert A \rvert^2 \,\Gamma(\frac{1}{2}) = \sqrt{\frac{\pi}{2a}} \lvert A \rvert^2
+\end{align*}
+
+De la condición de normalización:
+\begin{gather*}
+    \int_{-\infty}^{\infty} \lvert\Psi(x,0)\rvert^2\,dx = \sqrt{\frac{\pi}{2a}} \lvert A \rvert^2 = 1 \\
+    \therefore A = \left (\frac{2a}{\pi}\right )^{1/4}
+\end{gather*}
+
+Una vez normalizada la función de onda inicial $\Psi(x,0) = \left (\frac{2a}{\pi}\right )^{1/4} e^{-ax^2}$, se obtiene 
+$\phi(k)$ con la Transformada de Fourier según la ec. $(11)$:
+
+\begin{align*}
+    \phi(k) &= \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \psi_{0}(x)e^{-ikx}\,dx \\
+    &= \left(\frac{a}{2\pi^3}\right)^{1/4} \int_{-\infty}^{\infty} e^{-(ax^2+ikx)}\,dx
+\end{align*}
+
+Con el apoyo de la librería \emph{Scipy} utilizando la función de transformada de Fourier, se obtiene el resultado:
+\begin{equation}
+    \phi(k) = \frac{1}{(2\pi a)^{1/4}} e^{-\frac{k^2}{4a}}
+\end{equation}
+
+Luego, de la ec. $(9)$:
+\begin{align*}
+    \Psi(x,t) &= \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \phi(k)e^{i(kx-\frac{\hbar k^2}{2m} t)}\,dk \\
+    &= \frac{1}{(8\pi^3 a)^{1/4}} \int_{-\infty}^{\infty} e^{-\left[ \left( \frac{1}{4a}+\frac{i\hbar}{2m}t \right)k^2 - ixk\right]} \,dk
+\end{align*}
+
+Evidentemente esta es una integral algo laboriosa de hacer, así que se recurre una vez más a la librería \emph{Scipy}, 
+utilizando esta vez la función de cálculo de integrales.\\
+Se obtiene así la expresión general para la función de onda:
+\begin{equation*}
+    \Psi(x,t) = \left( \frac{2a}{\pi} \right)^{1/4} \frac{1}{\sqrt{1+\frac{2i\hbar a}{m}t}} e^{-\frac{ax^2}{1+\frac{2i\hbar a}{m}t}}
+\end{equation*}
+
+O de forma más simplificada haciendo\\ $\theta=\frac{2\hbar a}{m}t$:
+\begin{equation}
+    \Psi(x,t) = \left( \frac{2a}{\pi} \right)^{1/4} \frac{1}{\sqrt{1+i\theta}} e^{-\frac{ax^2}{1+i\theta}}
+\end{equation}
