@@ -695,6 +695,10 @@ INPUT .\particula_libre.tex
 INPUT particula_libre.tex
 INPUT .\particula_libre.tex
 INPUT particula_libre.tex
+INPUT .\heisenberg.tex
+INPUT heisenberg.tex
+INPUT .\heisenberg.tex
+INPUT heisenberg.tex
 INPUT .\apendice.tex
 INPUT apendice.tex
 INPUT .\apendice.tex

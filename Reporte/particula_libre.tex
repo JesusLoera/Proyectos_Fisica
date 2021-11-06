@@ -90,6 +90,11 @@ Con el apoyo de la librería \emph{Scipy} utilizando la función de transformada
     \phi(k) = \frac{1}{(2\pi a)^{1/4}} e^{-\frac{k^2}{4a}}
 \end{equation}
 
+Fijando un valor para $a$ de $a=\frac{1}{2\pi}$, se puede obtener gráficamente un representación para esta función de 
+onda en el espacio de frecuencias:\\
+
+INSERTAR GRÁFICA 1\\
+
 Luego, de la ec. $(9)$:
 \begin{align*}
     \Psi(x,t) &= \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \phi(k)e^{i(kx-\frac{\hbar k^2}{2m} t)}\,dk \\
@@ -107,3 +112,31 @@ O de forma más simplificada haciendo\\ $\theta=\frac{2\hbar a}{m}t$:
 \begin{equation}
     \Psi(x,t) = \left( \frac{2a}{\pi} \right)^{1/4} \frac{1}{\sqrt{1+i\theta}} e^{-\frac{ax^2}{1+i\theta}}
 \end{equation}
+
+Si suponemos que esta función de onda es asociada a un electrón, cuya masa es $m=9.11\times10^{-31} kg$; se puede 
+representar gráficamente haciendo $a=\frac{1}{2\pi}$ (para conservar coherencia con la gráfica anterior) 
+y tomando su función de onda inicial $\Psi(x,0)$:\\
+
+INSERTAR GRÁFICA 2 \\
+
+Se observa que se satisfacen las condiciones necesarias para una función de onda, i.e. la continuidad de $\Psi(x,t)$, 
+así como en su derivada posicional de primer orden y la condición de que cuando $x\rightarrow\pm\infty$, $\Psi(x,t)=0$.\\
+
+Ya obtenida la función de onda que describe a esta partícula, el verdadero sentido físico se adquiere al obtener el 
+módulo al cuadrado de la antedicha:
+\begin{equation*}
+    \lvert\Psi(x,t)\rvert^2 = \Psi*\Psi = \sqrt{\frac{2a}{\pi}} \frac{1}{\sqrt{1+\theta^2}} e^{-\frac{2ax^2}{1+\theta^2}}
+\end{equation*}
+
+Esta función representa ahora una densidad de probabilidad. Más concretamente, la probabilidad de localizar al electrón 
+en una región del espacio $x$, a un determinado tiempo $t$. Y si se define $\omega=\sqrt{\frac{a}{1+\theta^2}}$, se puede 
+expresar de forma más simplificada:
+\begin{equation}
+    \rho(x,t) = \lvert\Psi(x,t)\rvert^2 = \sqrt{\frac{2}{\pi}} \omega e^{-2\omega^2x^2}
+\end{equation}
+
+INSERTAR GRÁFICA 3 \\
+
+Ya sea a partir la función $\rho(x,t)$ o la misma gráfica, se observa la distribución gaussiana que tiene este electrón. 
+Siendo así para cualquier tiempo arbitrario $t=t_{0}$ más probable de detectarlo en posiciones cercanas al origen, y mucho 
+menos probable en posiciones alejadas de éste.
