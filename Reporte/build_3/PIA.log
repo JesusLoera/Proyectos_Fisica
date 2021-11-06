@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.4)  4 NOV 2021 20:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.4)  5 NOV 2021 13:00
 entering extended mode
 **d:/All/Proyectos/Proyectos_Fisica/Reporte/PIA.tex
 (d:/All/Proyectos/Proyectos_Fisica/Reporte/PIA.tex
@@ -705,7 +705,9 @@ File: imagenes/punto3/fase9.png Graphic file (type png)
 <use imagenes/punto3/fase9.png>
 Package pdftex.def Info: imagenes/punto3/fase9.png  used on input line 81.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
- [5 <./imagenes/punto2/eje_x97.png> <./imagenes/punto2/eje_x98.png> <./imagenes/punto2/espectro97.png> <./imagenes/punto2/espectro98.png> <./imagenes/punto2/fase97.png> <./imagenes/punto2/fase98.png>] [6 <./imagenes/punto3/eje_x8.png> <./imagenes/punto3/eje_x9.png> <./imagenes/punto3/espectro8.png> <./imagenes/punto3/espectro9.png> <./imagenes/punto3/fase8.png> <./imagenes/punto3/fase9.png>]) (particula_libre.tex) (apendice.tex [7
+ [5 <./imagenes/punto2/eje_x97.png> <./imagenes/punto2/eje_x98.png> <./imagenes/punto2/espectro97.png> <./imagenes/punto2/espectro98.png> <./imagenes/punto2/fase97.png> <./imagenes/punto2/fase98.png>] [6 <./imagenes/punto3/eje_x8.png> <./imagenes/punto3/eje_x9.png> <./imagenes/punto3/espectro8.png> <./imagenes/punto3/espectro9.png> <./imagenes/punto3/fase8.png> <./imagenes/punto3/fase9.png>]) (particula_libre.tex [7
+
+]) (apendice.tex [8
 
 ] (C:\Users\Ed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -716,11 +718,11 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 11.
- [8
+ [9
 
-] [9]) (bibliografia.tex [10]
+] [10]) (bibliografia.tex [11]
 Class rmaa Info: Calling @outputaddressesifnecessary on input line 15.
- [11
+ [12
 
 
 ]) (d:\All\Proyectos\Proyectos_Fisica\Reporte\build_3\PIA.aux
@@ -736,15 +738,15 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  8863 strings out of 478907
  124869 string characters out of 2853314
- 1088095 words of memory out of 3000000
+ 1088360 words of memory out of 3000000
  26556 multiletter control sequences out of 15000+600000
  418136 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,8n,83p,746b,1861s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecst0800.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0800.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on d:\All\Proyectos\Proyectos_Fisica\Reporte\build_3\PIA.pdf (11 pages, 962925 bytes).
+ 77i,11n,83p,746b,1863s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecst0800.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0800.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm5.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on d:\All\Proyectos\Proyectos_Fisica\Reporte\build_3\PIA.pdf (12 pages, 1008881 bytes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
+ 610 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
