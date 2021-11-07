@@ -131,7 +131,7 @@ así como en su derivada posicional de primer orden y la condición de que cuand
 Ya obtenida la función de onda que describe a esta partícula, el verdadero sentido físico se adquiere al obtener el 
 módulo al cuadrado de la antedicha:
 \begin{equation*}
-    \lvert\Psi(x,t)\rvert^2 = \Psi*\Psi = \sqrt{\frac{2a}{\pi}} \frac{1}{\sqrt{1+\theta^2}} e^{-\frac{2ax^2}{1+\theta^2}}
+    \lvert\Psi(x,t)\rvert^2 = \Psi^*\Psi = \sqrt{\frac{2a}{\pi}} \frac{1}{\sqrt{1+\theta^2}} e^{-\frac{2ax^2}{1+\theta^2}}
 \end{equation*}
 
 Esta función representa ahora una densidad de probabilidad. Más concretamente, la probabilidad de localizar al electrón 
@@ -148,4 +148,17 @@ expresar de forma más simplificada:
 
 Ya sea a partir la función $\rho(x,t)$ o la misma gráfica, se observa la distribución gaussiana que tiene este electrón. 
 Siendo así para cualquier tiempo arbitrario $t=t_{0}$ más probable de detectarlo en posiciones cercanas al origen, y mucho 
-menos probable en posiciones alejadas de éste.
+menos probable en posiciones alejadas de éste.\\
+
+Conviene estudiar también el caso en el que transcurre un tiempo considerablemente largo en el sistema, es decir cuando 
+$t\rightarrow\infty$. Si $t$ es muy grande, $1+\left (\frac{2\hbar a}{m}t \right )^2 \approx \frac{4\hbar^2a^2}{m^2}t^2$. 
+Entonces:
+\begin{gather*}
+    \omega \approx \sqrt{\frac{m^2}{4\hbar^2at^2}} = \frac{m}{2\hbar\sqrt{a}} \frac{1}{t^2} \\
+    \Rightarrow \lvert\Psi(x,t)\rvert^2 \approx \sqrt{\frac{2}{\pi a}} \frac{m}{\hbar} \frac{1}{t^2} e^{-\frac{m^2}{2\hbar^2a} \frac{1}{t^2} x^2}
+\end{gather*}
+Graficando la función de onda para tiempos considerablemente grandes:\\
+
+INSERTAR GRÁFICAS 4, 5 Y 6 \\
+
+Conforme incrementa el tiempo, la gráfica de $\lvert\Psi\rvert^2$ se aplana y ensancha.

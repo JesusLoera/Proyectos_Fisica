@@ -695,6 +695,27 @@ INPUT .\particula_libre.tex
 INPUT particula_libre.tex
 INPUT .\particula_libre.tex
 INPUT particula_libre.tex
+INPUT .\imagenes\graficas_particulalibre\phi(k).png
+INPUT .\imagenes\graficas_particulalibre\phi(k).png
+INPUT imagenes\graficas_particulalibre\phi(k).png
+INPUT .\imagenes\graficas_particulalibre\phi(k).png
+INPUT .\imagenes\graficas_particulalibre\phi(k).png
+INPUT .\imagenes\graficas_particulalibre\phi(k).png
+INPUT .\imagenes\graficas_particulalibre\phi(k).png
+INPUT .\imagenes\graficas_particulalibre\psi(x,t).png
+INPUT .\imagenes\graficas_particulalibre\psi(x,t).png
+INPUT imagenes\graficas_particulalibre\psi(x,t).png
+INPUT .\imagenes\graficas_particulalibre\psi(x,t).png
+INPUT .\imagenes\graficas_particulalibre\psi(x,t).png
+INPUT .\imagenes\graficas_particulalibre\psi(x,t).png
+INPUT .\imagenes\graficas_particulalibre\psi(x,t).png
+INPUT .\imagenes\graficas_particulalibre\rho(x,t).png
+INPUT .\imagenes\graficas_particulalibre\rho(x,t).png
+INPUT imagenes\graficas_particulalibre\rho(x,t).png
+INPUT .\imagenes\graficas_particulalibre\rho(x,t).png
+INPUT .\imagenes\graficas_particulalibre\rho(x,t).png
+INPUT .\imagenes\graficas_particulalibre\rho(x,t).png
+INPUT .\imagenes\graficas_particulalibre\rho(x,t).png
 INPUT .\heisenberg.tex
 INPUT heisenberg.tex
 INPUT .\heisenberg.tex
@@ -747,6 +768,8 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi9.pfb

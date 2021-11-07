@@ -1,2 +1,39 @@
 \section{Valores esperados y el Principio de Indeterminación de Heisenberg}
 \label{Valores esperados y el Principio de Indeterminación de Heisenberg}
+
+En mecánica cuántica, el valor esperado no es más que el promedio de repetidas mediciones en un ensamble de sistemas 
+idénticamente preparados. \emph{Obs. No es lo mismo que el promedio de repetidas mediciones en un mismo y 
+único sistema}. \\
+Dentro del formalismo de la mecánica cuántica, resulta ser que todas las variables dinámicas clásicas pueden ser expresadas 
+en términos de la posición y del momento. Si se define el operador posición como:
+\begin{equation}
+    \hat{x} = x
+\end{equation}
+
+Y al operador momento como:
+\begin{equation}
+    \hat{p} = \frac{\hbar}{i} \frac{\partial}{\partial x}
+\end{equation}
+
+Entonces para calcular el valor esperado de cualquier cantidad $Q(x,p)$, simplemente se reemplaza cada variable por su 
+operador análogo, se inserta el operador resultante entre $\Psi^*$ y $\Psi$ y finalmente se integra:
+\begin{equation}
+    \langle Q(x,p) \rangle = \int \Psi^* \hat{Q}(\hat{x},\hat{p}) \Psi \, dx
+\end{equation}
+
+Se define además una magnitud conocida como la \emph{desviación estándar} para alguna función arbitraria $j$:
+\begin{equation}
+    \sigma = \sqrt{\langle j^2 \rangle - \langle j \rangle^2}
+\end{equation}
+
+Al lidiar con ondas, se desprende del análisis de Fourier que mientras más precisa sea la posición de una onda, menos 
+precisa será será su longitud de onda y viceversa. Como la longitud de onda de una partícula está relacionada con su 
+momento \emph{(Véanse, relaciones de De Broglie)}, entonces una dispersión en la longitud de onda corresponde a una 
+dispersión en el momento. Lo anterior dicho implica que mientras más precisa sea la posición de una partícula, menos preciso 
+será su momento. Cuantitativamente:
+\begin{equation}
+    \sigma_{x} \sigma_{p} \geq \frac{\hbar}{2}
+\end{equation}
+
+Donde $\sigma_{x}$ es la desviación estándar en $x$ y $\sigma_{p}$ es la desviación estándar en $p$. Este es el famoso 
+\emph{Principio de Indeterminación de Heisenberg}.
