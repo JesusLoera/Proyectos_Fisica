@@ -27,3 +27,14 @@ plt.plot(x, psixt)
 plt.title("Ψ(x,t = 0)")
 plt.show()
 
+"Graficamos la funcion rho(x, t) para a = 1/(2*pi) y t=0"
+"cuanto t -> 0, θ -> 0"
+
+w = a**(1/2)
+x = np.arange(-10, 10, 0.1)
+
+rhoxt = ((2/pi)**(1/2))*w*e**(-2*w**2*x**2)
+
+plt.plot(x, rhoxt)
+plt.title("ρ(x,t = 0)")
+plt.show()
