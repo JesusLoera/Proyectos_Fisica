@@ -36,4 +36,79 @@ será su momento. Cuantitativamente:
 \end{equation}
 
 Donde $\sigma_{x}$ es la desviación estándar en $x$ y $\sigma_{p}$ es la desviación estándar en $p$. Este es el famoso 
-\emph{Principio de Indeterminación de Heisenberg}.
+\emph{Principio de Indeterminación de Heisenberg}.\\
+
+Se pretende entonces verificar este principio con el ejemplo anterior del paquete de ondas gaussiano. A partir de la ec. 
+$(18)$ se calculan los valores esperados tanto para la posición como para el momento:
+\begin{align*}
+    \langle x \rangle &= \int_{-\infty}^{\infty} \Psi^* \hat{x} \Psi \, dx = \int_{-\infty}^{\infty} x \lvert\Psi\rvert^2\,dx \\
+    &= \int_{-\infty}^{\infty} x \sqrt{\frac{2}{\pi}} \omega e^{-2\omega^2x^2} \,dx
+\end{align*}
+
+Y por ser el integrando una función impar:
+\begin{equation*}
+    \langle x \rangle = 0
+\end{equation*}
+
+El valor esperado del momento puede ser obtenido a través de su operador sobre la función de onda, o bien, de una forma 
+equivalente y totalmente válida (que además es más rápida):
+\begin{equation}
+    \langle p \rangle = m \frac{d\langle x \rangle}{dt}
+\end{equation}
+
+Y como $\langle x \rangle=0$:
+\begin{equation*}
+    \langle p \rangle = 0
+\end{equation*}
+
+Se calculan a continuación los valores esperados de $x^2$ y de $p^2$, para poder introducirlos en la ecuación $(19)$ de la 
+desviación estándar:
+\begin{align*}
+    \langle x^2 \rangle &= \int_{-\infty}^{\infty} \Psi^* (\hat{x})^2 \Psi \, dx = \int_{-\infty}^{\infty} x^2 \lvert\Psi\rvert^2\,dx \\
+    &= \int_{-\infty}^{\infty} x^2 \sqrt{\frac{2}{\pi}} \omega e^{-2\omega^2x^2} \,dx \\
+    &= \sqrt{\frac{8}{\pi}} \omega \int_{0}^{\infty} x^2 e^{-2\omega^2x^2} \,dx
+\end{align*}
+
+Efectuando cambios de variable apropiados:
+\begin{gather*}
+    \langle x^2 \rangle = \frac{1}{2\omega^2\sqrt{\pi}} \int_{0}^{\infty} t^{1/2} e^{-t}\,dt 
+    = \frac{1}{2\omega^2\sqrt{\pi}} \,\Gamma(\frac{3}{2}) \\
+    \langle x^2 \rangle = \frac{1}{4\omega^2}
+\end{gather*}
+
+Para $p^2$:
+\begin{align*}
+    \langle p^2 \rangle &= \int_{-\infty}^{\infty} \Psi^* (\hat{p})^2 \Psi \, dx = \int_{-\infty}^{\infty} \Psi^* \left( \frac{\hbar}{i} \frac{\partial}{\partial x} \right)^2 \Psi \,dx \\
+    &= -\hbar^2 \int_{-\infty}^{\infty} \Psi^* \frac{\partial^2\Psi}{\partial x^2}\,dx
+\end{align*}
+
+Donde $\Psi(x,t)$ es como se definió en la ec. $(14)$. Esta integral es algo extensa de realizar, así que se proporciona 
+el resultado directo, el cual al igual que en los casos anteriores, puede ser calculado mediante las herramientas de la 
+librería \emph{Scipy}. Entonces:
+\begin{equation*}
+    \langle p^2 \rangle = a\hbar^2
+\end{equation*}
+
+Se calcula ahora la desviación estándar en $x$ y en $p$:
+\begin{align*}
+    \sigma_{x} = \sqrt{\langle x^2 \rangle - \langle x \rangle^2} = \sqrt{\frac{1}{4\omega^2}-0} = \frac{1}{2\omega} \\
+    \sigma_{p} = \sqrt{\langle p^2 \rangle - \langle p \rangle^2} = \sqrt{a\hbar^2-0} = \hbar\sqrt{a}
+\end{align*}
+
+Obteniendo el producto $\sigma_{x}\sigma_{p}$:
+\begin{align*}
+    \sigma_{x}\sigma_{p} &= \left( \frac{1}{2\omega} \right) \left( \hbar\sqrt{a} \right) = \frac{\hbar}{2} \sqrt{\frac{1+\theta^2}{a}} \sqrt{a} \\
+    &= \frac{\hbar}{2} \sqrt{1+\theta^2}
+\end{align*}
+
+Recordando la definición de $\theta = \frac{2\hbar a}{m}t$, se tiene que para cualquier tiempo $t$:
+\begin{equation*}
+    [\theta(t)]^2 \geq 0
+\end{equation*}
+
+De aquí se halla entonces una cota inferior para el producto de las desviaciones:
+\begin{equation*}
+    \sigma_{x}\sigma_{p} = \frac{\hbar}{2} \sqrt{1+\theta^2} \geq \frac{\hbar}{2}
+\end{equation*}
+
+Que comparándolo con $(20)$, no es más que una manifestación del Principio de Indeterminación de Heisenberg.

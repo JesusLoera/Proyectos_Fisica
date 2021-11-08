@@ -4,7 +4,7 @@
   (generated)
   "build_2/PIA.ind"
   "build_2/PIA.ilg"
-["pdflatex"] 1636280326 "c:/Users/cesar/Documents/PIA_Metodos/Proyectos_Fisica/Reporte/PIA.tex" "c:/Users/cesar/Documents/PIA_Metodos/Proyectos_Fisica/Reporte/build_2/PIA.pdf" "PIA" 1636280326
+["pdflatex"] 1636331655 "c:/Users/cesar/Documents/PIA_Metodos/Proyectos_Fisica/Reporte/PIA.tex" "c:/Users/cesar/Documents/PIA_Metodos/Proyectos_Fisica/Reporte/build_2/PIA.pdf" "PIA" 1636331655
   "Algoritmos_Fourier.tex" 1635918782 4677 769c63720aa7ac9565bc24282633ad59 ""
   "Atractor_Lorentz.tex" 1635926875 3742 4f6a6259731df3daa483666277be0c5f ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1000.tfm" 993058356 3200 328792ff19833a39406f06fa0555a6dc ""
@@ -126,12 +126,12 @@
   "Resumen.tex" 1636094143 747 b64f0c73baa6498cfebe866440a632a6 ""
   "abstract.tex" 1636094143 649 d7793c5bfe68d6a435454de20c792975 ""
   "apendice.tex" 1635926875 3919 fae5ce6359efccf053c4106ce2c40885 ""
-  "bibliografia.tex" 1635926875 466 87172c040d29f597c02e8b0a42f3e0bb ""
+  "bibliografia.tex" 1636331636 647 4c4b5a8465b1810af213018f1ae96ad9 ""
   "build_2/PIA.aux" 0 -1 0 "pdflatex"
   "build_2/PIA.ind" 0 -1 0 "makeindex build_2/PIA.idx"
   "c:/Users/cesar/Documents/PIA_Metodos/Proyectos_Fisica/Reporte/PIA.tex" 1636186773 444 4e4a2e0c24ccbb5713655067367175b6 ""
-  "c:/Users/cesar/Documents/PIA_Metodos/Proyectos_Fisica/Reporte/build_2/PIA.aux" 1636280326 9 a94a2480d3289e625eea47cd1b285758 ""
-  "heisenberg.tex" 1636280306 2148 8e8899e219a26f94b9cac20f14e616d1 ""
+  "c:/Users/cesar/Documents/PIA_Metodos/Proyectos_Fisica/Reporte/build_2/PIA.aux" 1636331655 9 a94a2480d3289e625eea47cd1b285758 ""
+  "heisenberg.tex" 1636331322 5622 1e26f82d887e7ab2bc06da06b371300a ""
   "imagenes/graficas_particulalibre/phi(k).png" 1636274746 16777 da1d43cb1500590f0e899d5546b7ccc8 ""
   "imagenes/graficas_particulalibre/psi(x,t).png" 1636274747 20785 c54e80b59f7aee546c1440eb88b4d209 ""
   "imagenes/graficas_particulalibre/rho(x,t).png" 1636274747 21340 38815d0ed55aa744293cc720f3f41d21 ""
@@ -159,9 +159,9 @@
   "pythonhighlight.sty" 1635918782 4959 44a39a68d852c9742af161f7166b2a03 ""
   "rmaa.cls" 1635918782 83984 ccdcdc766a419c1972c13731c96d3a09 ""
   (generated)
-  "build_2/PIA.idx"
+  "build_2/PIA.pdf"
+  "build_2/PIA.log"
   "c:/Users/cesar/Documents/PIA_Metodos/Proyectos_Fisica/Reporte/build_2/PIA.pdf"
   "build_2/PIA.aux"
+  "build_2/PIA.idx"
   "c:/Users/cesar/Documents/PIA_Metodos/Proyectos_Fisica/Reporte/build_2/PIA.log"
-  "build_2/PIA.log"
-  "build_2/PIA.pdf"
