@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.integrate import odeint
 from math import e, pi 
 
 "Graficamos la funcion phi(k) para a = 1/(2*pi)"
@@ -28,7 +27,7 @@ plt.title("Ψ(x,t = 0)")
 plt.show()
 
 "Graficamos la funcion rho(x, t) para a = 1/(2*pi) y t=0"
-"cuanto t -> 0, θ -> 0"
+"cuando t -> 0, θ -> 0"
 
 w = a**(1/2)
 x = np.arange(-10, 10, 0.1)
@@ -37,4 +36,37 @@ rhoxt = ((2/pi)**(1/2))*w*e**(-2*w**2*x**2)
 
 plt.plot(x, rhoxt)
 plt.title("ρ(x,t = 0)")
+plt.show()
+
+
+"Graficamos la funcion rho(x, t) para a = 1/(2*pi) y t=10^5 s y con m = masa del electron"
+
+t = 10**5
+x = np.arange(-10, 10, 0.001)
+
+rhoxt = ((2/pi*a)**(1/2))*(m/(h*t))*e**(-(x**2*m**2/(2*h**2*a*t**2)))
+
+
+plt.plot(x, rhoxt)
+plt.title("ρ(x,t = 10^5)")
+plt.show()
+
+
+"Graficamos la funcion rho(x, t) t=10^7 s"
+
+t = 10**7
+x = np.arange(-10, 10, 0.001)
+
+plt.plot(x, rhoxt)
+plt.title("ρ(x,t = 10^7)")
+plt.show()
+
+
+"Graficamos la funcion rho(x, t) t=10^9 s"
+
+t = 10**9
+x = np.arange(-10, 10, 0.001)
+
+plt.plot(x, rhoxt)
+plt.title("ρ(x,t = 10^9 s)")
 plt.show()

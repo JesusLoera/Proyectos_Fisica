@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.4)  8 NOV 2021 01:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.4)  9 NOV 2021 23:42
 entering extended mode
-**d:/All/Proyectos/Proyectos_Fisica/Reporte/PIA.tex
-(d:/All/Proyectos/Proyectos_Fisica/Reporte/PIA.tex
+**d:/All/Proyectos/Proyectos_Fisica/Fourier_Transform_In_Physics/Reporte/PIA.tex
+(d:/All/Proyectos/Proyectos_Fisica/Fourier_Transform_In_Physics/Reporte/PIA.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-10-18> (Preambulo.tex (rmaa.cls
 Document Class: rmaa 2011/08/15 v3.26 RevMexAA article class
@@ -554,7 +554,7 @@ Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count342
 \l__pdf_internal_box=\box105
-) (d:\All\Proyectos\Proyectos_Fisica\Reporte\build_3\PIA.aux)
+) (d:\All\Proyectos\Proyectos_Fisica\Fourier_Transform_In_Physics\Reporte\build_3\PIA.aux)
 \openout1 = `PIA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -609,106 +609,104 @@ Non-PDF special ignored!
 {C:/Users/Ed/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
-]) (Atractor_Lorentz.tex [2] [3
-
-]
-<imagenes/punto1/eje_x14.5500.png, id=28, 462.528pt x 346.896pt>
+]) (Atractor_Lorentz.tex [2]
+<imagenes/punto1/eje_x14.5500.png, id=25, 462.528pt x 346.896pt>
 File: imagenes/punto1/eje_x14.5500.png Graphic file (type png)
 <use imagenes/punto1/eje_x14.5500.png>
 Package pdftex.def Info: imagenes/punto1/eje_x14.5500.png  used on input line 54.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto1/eje_x14.5599.png, id=30, 462.528pt x 346.896pt>
+<imagenes/punto1/eje_x14.5599.png, id=27, 462.528pt x 346.896pt>
 File: imagenes/punto1/eje_x14.5599.png Graphic file (type png)
 <use imagenes/punto1/eje_x14.5599.png>
 Package pdftex.def Info: imagenes/punto1/eje_x14.5599.png  used on input line 55.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto1/espectro14.5500.png, id=31, 462.528pt x 346.896pt>
+<imagenes/punto1/espectro14.5500.png, id=28, 462.528pt x 346.896pt>
 File: imagenes/punto1/espectro14.5500.png Graphic file (type png)
 <use imagenes/punto1/espectro14.5500.png>
 Package pdftex.def Info: imagenes/punto1/espectro14.5500.png  used on input line 56.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto1/espectro14.5599.png, id=32, 462.528pt x 346.896pt>
+<imagenes/punto1/espectro14.5599.png, id=29, 462.528pt x 346.896pt>
 File: imagenes/punto1/espectro14.5599.png Graphic file (type png)
 <use imagenes/punto1/espectro14.5599.png>
 Package pdftex.def Info: imagenes/punto1/espectro14.5599.png  used on input line 57.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto1/fase14.5500.png, id=33, 462.528pt x 346.896pt>
+<imagenes/punto1/fase14.5500.png, id=30, 462.528pt x 346.896pt>
 File: imagenes/punto1/fase14.5500.png Graphic file (type png)
 <use imagenes/punto1/fase14.5500.png>
 Package pdftex.def Info: imagenes/punto1/fase14.5500.png  used on input line 58.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto1/fase14.5599.png, id=34, 462.528pt x 346.896pt>
+<imagenes/punto1/fase14.5599.png, id=31, 462.528pt x 346.896pt>
 File: imagenes/punto1/fase14.5599.png Graphic file (type png)
 <use imagenes/punto1/fase14.5599.png>
 Package pdftex.def Info: imagenes/punto1/fase14.5599.png  used on input line 59.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto2/eje_x97.png, id=35, 462.528pt x 346.896pt>
+<imagenes/punto2/eje_x97.png, id=32, 462.528pt x 346.896pt>
 File: imagenes/punto2/eje_x97.png Graphic file (type png)
 <use imagenes/punto2/eje_x97.png>
 Package pdftex.def Info: imagenes/punto2/eje_x97.png  used on input line 65.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto2/eje_x98.png, id=36, 462.528pt x 346.896pt>
+<imagenes/punto2/eje_x98.png, id=33, 462.528pt x 346.896pt>
 File: imagenes/punto2/eje_x98.png Graphic file (type png)
 <use imagenes/punto2/eje_x98.png>
 Package pdftex.def Info: imagenes/punto2/eje_x98.png  used on input line 66.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto2/espectro97.png, id=37, 462.528pt x 346.896pt>
+<imagenes/punto2/espectro97.png, id=34, 462.528pt x 346.896pt>
 File: imagenes/punto2/espectro97.png Graphic file (type png)
 <use imagenes/punto2/espectro97.png>
 Package pdftex.def Info: imagenes/punto2/espectro97.png  used on input line 67.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto2/espectro98.png, id=38, 462.528pt x 346.896pt>
+<imagenes/punto2/espectro98.png, id=35, 462.528pt x 346.896pt>
 File: imagenes/punto2/espectro98.png Graphic file (type png)
 <use imagenes/punto2/espectro98.png>
 Package pdftex.def Info: imagenes/punto2/espectro98.png  used on input line 68.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto2/fase97.png, id=39, 462.528pt x 346.896pt>
+<imagenes/punto2/fase97.png, id=36, 462.528pt x 346.896pt>
 File: imagenes/punto2/fase97.png Graphic file (type png)
 <use imagenes/punto2/fase97.png>
 Package pdftex.def Info: imagenes/punto2/fase97.png  used on input line 69.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto2/fase98.png, id=40, 462.528pt x 346.896pt>
+<imagenes/punto2/fase98.png, id=37, 462.528pt x 346.896pt>
 File: imagenes/punto2/fase98.png Graphic file (type png)
 <use imagenes/punto2/fase98.png>
 Package pdftex.def Info: imagenes/punto2/fase98.png  used on input line 70.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
- [4
+ [3
 
  <./imagenes/punto1/eje_x14.5500.png> <./imagenes/punto1/eje_x14.5599.png> <./imagenes/punto1/espectro14.5500.png> <./imagenes/punto1/espectro14.5599.png> <./imagenes/punto1/fase14.5500.png> <./imagenes/punto1/fase14.5599.png>]
-<imagenes/punto3/eje_x8.png, id=53, 462.528pt x 346.896pt>
+<imagenes/punto3/eje_x8.png, id=50, 462.528pt x 346.896pt>
 File: imagenes/punto3/eje_x8.png Graphic file (type png)
 <use imagenes/punto3/eje_x8.png>
 Package pdftex.def Info: imagenes/punto3/eje_x8.png  used on input line 76.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto3/eje_x9.png, id=54, 462.528pt x 346.896pt>
+<imagenes/punto3/eje_x9.png, id=51, 462.528pt x 346.896pt>
 File: imagenes/punto3/eje_x9.png Graphic file (type png)
 <use imagenes/punto3/eje_x9.png>
 Package pdftex.def Info: imagenes/punto3/eje_x9.png  used on input line 77.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto3/espectro8.png, id=55, 462.528pt x 346.896pt>
+<imagenes/punto3/espectro8.png, id=52, 462.528pt x 346.896pt>
 File: imagenes/punto3/espectro8.png Graphic file (type png)
 <use imagenes/punto3/espectro8.png>
 Package pdftex.def Info: imagenes/punto3/espectro8.png  used on input line 78.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto3/espectro9.png, id=56, 462.528pt x 346.896pt>
+<imagenes/punto3/espectro9.png, id=53, 462.528pt x 346.896pt>
 File: imagenes/punto3/espectro9.png Graphic file (type png)
 <use imagenes/punto3/espectro9.png>
 Package pdftex.def Info: imagenes/punto3/espectro9.png  used on input line 79.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto3/fase8.png, id=57, 462.528pt x 346.896pt>
+<imagenes/punto3/fase8.png, id=54, 462.528pt x 346.896pt>
 File: imagenes/punto3/fase8.png Graphic file (type png)
 <use imagenes/punto3/fase8.png>
 Package pdftex.def Info: imagenes/punto3/fase8.png  used on input line 80.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-<imagenes/punto3/fase9.png, id=58, 462.528pt x 346.896pt>
+<imagenes/punto3/fase9.png, id=55, 462.528pt x 346.896pt>
 File: imagenes/punto3/fase9.png Graphic file (type png)
 <use imagenes/punto3/fase9.png>
 Package pdftex.def Info: imagenes/punto3/fase9.png  used on input line 81.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
- [5 <./imagenes/punto2/eje_x97.png> <./imagenes/punto2/eje_x98.png> <./imagenes/punto2/espectro97.png> <./imagenes/punto2/espectro98.png> <./imagenes/punto2/fase97.png> <./imagenes/punto2/fase98.png>] [6 <./imagenes/punto3/eje_x8.png> <./imagenes/punto3/eje_x9.png> <./imagenes/punto3/espectro8.png> <./imagenes/punto3/espectro9.png> <./imagenes/punto3/fase8.png> <./imagenes/punto3/fase9.png>]) (particula_libre.tex [7
+ [4 <./imagenes/punto2/eje_x97.png> <./imagenes/punto2/eje_x98.png> <./imagenes/punto2/espectro97.png> <./imagenes/punto2/espectro98.png> <./imagenes/punto2/fase97.png> <./imagenes/punto2/fase98.png>] [5 <./imagenes/punto3/eje_x8.png> <./imagenes/punto3/eje_x9.png> <./imagenes/punto3/espectro8.png> <./imagenes/punto3/espectro9.png> <./imagenes/punto3/fase8.png> <./imagenes/punto3/fase9.png>]) (particula_libre.tex [6
 
 ]
-<imagenes/graficas_particulalibre/phi(k).png, id=83, 462.528pt x 346.896pt>
+<imagenes/graficas_particulalibre/phi(k).png, id=79, 462.528pt x 346.896pt>
 File: imagenes/graficas_particulalibre/phi(k).png Graphic file (type png)
 <use imagenes/graficas_particulalibre/phi(k).png>
 Package pdftex.def Info: imagenes/graficas_particulalibre/phi(k).png  used on input line 97.
@@ -718,7 +716,7 @@ Overfull \hbox (7.93495pt too wide) in paragraph at lines 97--98
 [][] 
  []
 
-<imagenes/graficas_particulalibre/psi(x,t).png, id=84, 462.528pt x 346.896pt>
+<imagenes/graficas_particulalibre/psi(x,t).png, id=80, 462.528pt x 346.896pt>
 File: imagenes/graficas_particulalibre/psi(x,t).png Graphic file (type png)
 <use imagenes/graficas_particulalibre/psi(x,t).png>
 Package pdftex.def Info: imagenes/graficas_particulalibre/psi(x,t).png  used on input line 124.
@@ -728,7 +726,7 @@ Overfull \hbox (7.93495pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
-<imagenes/graficas_particulalibre/rho(x,t).png, id=85, 462.528pt x 346.896pt>
+<imagenes/graficas_particulalibre/rho(x,t).png, id=81, 462.528pt x 346.896pt>
 File: imagenes/graficas_particulalibre/rho(x,t).png Graphic file (type png)
 <use imagenes/graficas_particulalibre/rho(x,t).png>
 Package pdftex.def Info: imagenes/graficas_particulalibre/rho(x,t).png  used on input line 145.
@@ -738,7 +736,38 @@ Overfull \hbox (7.93495pt too wide) in paragraph at lines 145--146
 [][] 
  []
 
-[8 <./imagenes/graficas_particulalibre/phi(k).png> <./imagenes/graficas_particulalibre/psi(x,t).png>]) (heisenberg.tex [9 <./imagenes/graficas_particulalibre/rho(x,t).png>]) (apendice.tex [10] (C:\Users\Ed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[7 <./imagenes/graficas_particulalibre/phi(k).png> <./imagenes/graficas_particulalibre/psi(x,t).png>]
+<imagenes/graficas_particulalibre/rho(x,t=10^5).png, id=93, 462.528pt x 346.896pt>
+File: imagenes/graficas_particulalibre/rho(x,t=10^5).png Graphic file (type png)
+<use imagenes/graficas_particulalibre/rho(x,t=10^5).png>
+Package pdftex.def Info: imagenes/graficas_particulalibre/rho(x,t=10^5).png  used on input line 163.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+
+Overfull \hbox (7.93495pt too wide) in paragraph at lines 163--164
+[][] 
+ []
+
+<imagenes/graficas_particulalibre/rho(x,t=10^7).png, id=94, 462.528pt x 346.896pt>
+File: imagenes/graficas_particulalibre/rho(x,t=10^7).png Graphic file (type png)
+<use imagenes/graficas_particulalibre/rho(x,t=10^7).png>
+Package pdftex.def Info: imagenes/graficas_particulalibre/rho(x,t=10^7).png  used on input line 168.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+
+Overfull \hbox (7.93495pt too wide) in paragraph at lines 168--169
+[][] 
+ []
+
+<imagenes/graficas_particulalibre/rho(x,t=10^9).png, id=95, 462.528pt x 346.896pt>
+File: imagenes/graficas_particulalibre/rho(x,t=10^9).png Graphic file (type png)
+<use imagenes/graficas_particulalibre/rho(x,t=10^9).png>
+Package pdftex.def Info: imagenes/graficas_particulalibre/rho(x,t=10^9).png  used on input line 173.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+
+Overfull \hbox (7.93495pt too wide) in paragraph at lines 173--174
+[][] 
+ []
+
+) (heisenberg.tex [8 <./imagenes/graficas_particulalibre/rho(x,t).png> <./imagenes/graficas_particulalibre/rho(x,t=10^5).png> <./imagenes/graficas_particulalibre/rho(x,t=10^7).png> <./imagenes/graficas_particulalibre/rho(x,t=10^9).png>]) (apendice.tex [9] (C:\Users\Ed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 10.
@@ -747,14 +776,226 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 11.
- [11
+ [10
 
-] [12]) (bibliografia.tex [13]
+] [11]
+
+apendice.tex:186: Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186     plt.title("Φ(
+                        k)")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+apendice.tex:186: Package inputenc Error: Invalid UTF-8 byte "A6.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186     plt.title("Φ(
+                        k)")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+apendice.tex:205: Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205     plt.title("Ψ(
+                        x,t = 0)")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+apendice.tex:205: Package inputenc Error: Invalid UTF-8 byte "A8.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205     plt.title("Ψ(
+                        x,t = 0)")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+apendice.tex:210: Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210     cuando t -> 0, θ 
+                            -> 0
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+apendice.tex:210: Package inputenc Error: Invalid UTF-8 byte "B8.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210     cuando t -> 0, θ 
+                            -> 0
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+apendice.tex:219: Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219     plt.title("ρ(
+                        x,t = 0)")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+apendice.tex:219: Package inputenc Error: Invalid UTF-8 byte "81.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219     plt.title("ρ(
+                        x,t = 0)")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[12]
+
+apendice.tex:234: Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234     plt.title("ρ(
+                        x,t = 10^5)")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+apendice.tex:234: Package inputenc Error: Invalid UTF-8 byte "81.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234     plt.title("ρ(
+                        x,t = 10^5)")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+apendice.tex:246: Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.246     plt.title("ρ(
+                        x,t = 10^7)")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+apendice.tex:246: Package inputenc Error: Invalid UTF-8 byte "81.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.246     plt.title("ρ(
+                        x,t = 10^7)")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+apendice.tex:258: Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.258     plt.title("ρ(
+                        x,t = 10^9 s)")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+apendice.tex:258: Package inputenc Error: Invalid UTF-8 byte "81.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.258     plt.title("ρ(
+                        x,t = 10^9 s)")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+) (bibliografia.tex [13]
 Class rmaa Info: Calling @outputaddressesifnecessary on input line 19.
  [14
 
 
-]) (d:\All\Proyectos\Proyectos_Fisica\Reporte\build_3\PIA.aux
+]) (d:\All\Proyectos\Proyectos_Fisica\Fourier_Transform_In_Physics\Reporte\build_3\PIA.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
@@ -765,17 +1006,17 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 8897 strings out of 478907
- 126104 string characters out of 2853314
- 1088460 words of memory out of 3000000
- 26583 multiletter control sequences out of 15000+600000
+ 8953 strings out of 478907
+ 128208 string characters out of 2853314
+ 1088616 words of memory out of 3000000
+ 26636 multiletter control sequences out of 15000+600000
  418136 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,11n,83p,746b,1863s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,11n,83p,775b,1861s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecst0800.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0800.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Ed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm5.pfb><C:/Users/Ed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on d:\All\Proyectos\Proyectos_Fisica\Reporte\build_3\PIA.pdf (14 pages, 1089531 bytes).
+Output written on d:\All\Proyectos\Proyectos_Fisica\Fourier_Transform_In_Physics\Reporte\build_3\PIA.pdf (14 pages, 1155140 bytes).
 PDF statistics:
- 643 PDF objects out of 1000 (max. 8388607)
+ 662 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
