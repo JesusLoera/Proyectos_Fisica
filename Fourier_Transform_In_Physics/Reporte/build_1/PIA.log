@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2021.2.21)  9 NOV 2021 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2021.2.21)  15 NOV 2021 00:01
 entering extended mode
 **"c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Fourier_Transform_In_Physics/Reporte/PIA.tex"
 ("c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Proyectos_Fisica/Fourier_Transform_In_Physics/Reporte/PIA.tex"
@@ -687,34 +687,35 @@ Package pdftex.def Info: imagenes/punto3/fase9.png  used on input line 81.
 <imagenes/graficas_particulalibre/phi(k).png, id=79, 462.528pt x 346.896pt>
 File: imagenes/graficas_particulalibre/phi(k).png Graphic file (type png)
 <use imagenes/graficas_particulalibre/phi(k).png>
-Package pdftex.def Info: imagenes/graficas_particulalibre/phi(k).png  used on input line 97.
+Package pdftex.def Info: imagenes/graficas_particulalibre/phi(k).png  used on input line 98.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
 
-Overfull \hbox (7.93495pt too wide) in paragraph at lines 97--98
+Overfull \hbox (7.93495pt too wide) in paragraph at lines 98--99
 [][] 
  []
 
 <imagenes/graficas_particulalibre/psi(x,t).png, id=80, 462.528pt x 346.896pt>
 File: imagenes/graficas_particulalibre/psi(x,t).png Graphic file (type png)
 <use imagenes/graficas_particulalibre/psi(x,t).png>
-Package pdftex.def Info: imagenes/graficas_particulalibre/psi(x,t).png  used on input line 124.
+Package pdftex.def Info: imagenes/graficas_particulalibre/psi(x,t).png  used on input line 125.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
 
-Overfull \hbox (7.93495pt too wide) in paragraph at lines 124--125
+Overfull \hbox (7.93495pt too wide) in paragraph at lines 125--126
 [][] 
  []
 
-<imagenes/graficas_particulalibre/rho(x,t).png, id=81, 462.528pt x 346.896pt>
+[7 <./imagenes/graficas_particulalibre/phi(k).png> <./imagenes/graficas_particulalibre/psi(x,t).png>]
+<imagenes/graficas_particulalibre/rho(x,t).png, id=92, 462.528pt x 346.896pt>
 File: imagenes/graficas_particulalibre/rho(x,t).png Graphic file (type png)
 <use imagenes/graficas_particulalibre/rho(x,t).png>
-Package pdftex.def Info: imagenes/graficas_particulalibre/rho(x,t).png  used on input line 145.
+Package pdftex.def Info: imagenes/graficas_particulalibre/rho(x,t).png  used on input line 146.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
 
-Overfull \hbox (7.93495pt too wide) in paragraph at lines 145--146
+Overfull \hbox (7.93495pt too wide) in paragraph at lines 146--147
 [][] 
  []
 
-[7 <./imagenes/graficas_particulalibre/phi(k).png> <./imagenes/graficas_particulalibre/psi(x,t).png>]) (heisenberg.tex [8 <./imagenes/graficas_particulalibre/rho(x,t).png>]) (apendice.tex [9] ("C:\Users\Jesus Loera\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty"
+) (heisenberg.tex [8 <./imagenes/graficas_particulalibre/rho(x,t).png>]) (apendice.tex [9] ("C:\Users\Jesus Loera\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty"
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 10.
@@ -740,7 +741,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,11n,52p,834b,1847s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecst0800.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0800.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on "c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Proyectos_Fisica\Fourier_Transform_In_Physics\Reporte\build_1\PIA.pdf" (13 pages, 1072773 bytes).
+Output written on "c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Proyectos_Fisica\Fourier_Transform_In_Physics\Reporte\build_1\PIA.pdf" (13 pages, 1072755 bytes).
 PDF statistics:
  622 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
